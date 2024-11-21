@@ -21,12 +21,12 @@ This is a Python command-line interface (CLI) Rubik's Cube simulator that allows
 
 1. **Clone the Repository**
 
-      git clone https://github.com/yourusername/your-repo-name.git
+      git clone git@github.com:vsvood/cliCube.git
    
 
 2. **Navigate to the Project Directory**
 
-      cd your-repo-name
+      cd cliCube
    
 
 3. **Run the Simulator**
