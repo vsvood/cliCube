@@ -1,6 +1,14 @@
 from enum import Enum
 import random
 import time
+import os
+import platform
+
+def sys_init():
+    if(platform.system() == "Windows"):
+        windows_version = list(map(int,platform.version().split(".")))
+        if(windows_version[0] <= 10):
+            os.system('color')
 
 def hline(size: int):
     return (("+" + "-" * size) * 4 + "+")
@@ -403,6 +411,7 @@ def game():
     
 
 if __name__ == "__main__":
+    sys_init()
     greeting = """
    _.--""--._
  .'          '.
